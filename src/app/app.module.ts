@@ -19,6 +19,7 @@ import {dbURL} from '../shared/dburl';
 
 import 'web-photo-filter';
 import { Camera } from '@ionic-native/camera';
+import {ImagePicker} from '@ionic-native/image-picker';
 import { SocialSharing } from '@ionic-native/social-sharing';
 
 
@@ -48,6 +49,7 @@ import { SocialSharing } from '@ionic-native/social-sharing';
     SplashScreen,
     Camera,
     SocialSharing,
+    ImagePicker,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     UserProvider,
     {provide: 'DbURL', useValue: dbURL}

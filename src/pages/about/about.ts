@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular/';
+import {ImagePicker} from '@ionic-native/image-picker';
 
-//import {ImagePicker} from '@ionic-native/image-picker';
 
 import { Camera, CameraOptions } from '@ionic-native/camera';
 
@@ -15,7 +15,7 @@ export class AboutPage {
   level = 1;
   result: HTMLElement;
 
-  constructor(public navCtrl: NavController, public camera: Camera) {
+  constructor(public picker: ImagePicker, public navCtrl: NavController, public camera: Camera) {
     this.image= 'assets/imgs/uploadimage2.png'
   }
 
@@ -60,7 +60,7 @@ export class AboutPage {
     this.picker.getPictures(option).then(results=> {
       for(var i=0; i< results.length; i++)
       {
-        this.path = results[i];
+        this.image = results[i];
         alert("Gallery Path :" + results[i])
         this.filter(null, 1);
       }
