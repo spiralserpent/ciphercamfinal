@@ -49,7 +49,7 @@ export class AboutPage {
 
     //this.image = 'assets/imgs/uploadimage2.png';
     
-    
+
    let option = {
       title: 'Select picture',
       message: 'Select at least 1 picture',
