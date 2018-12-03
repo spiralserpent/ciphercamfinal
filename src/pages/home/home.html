@@ -1,0 +1,103 @@
+<!-- Aquí es la pagina de Profile y no le cambie todo para dejar el codigo ya asi y no hacerla de pedo -->
+<ion-header>
+    <ion-navbar color="azulito">
+      <img src="assets/imgs/logochiquito.png" class="imagenes2" alt="Ciphercam"/>
+      <ion-title class="fuente">Profile</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding class="gradient">
+      
+      <!-- <ion-item class="item-thumbnail-left" id="profile-list-item3">
+            <img src="assets/imgs/perfilpic.png " style= "width:25%;">
+            <h2>Ivan Garzón</h2>
+            <p>@strikerivan</p>
+          </ion-item> 
+          
+            
+          <ion-card-title class="texto">Nuestro equipo</ion-card-title>
+          <ion-card-content class="transparente">
+             <ion-card class="transparente" *ngFor="let user of users">
+                <img src="{{dbURL + users.profile_pic}}" alt="{{users.name}}"/>
+                <ion-card-content>
+                  <ion-card-title>
+                    {{users.name | uppercase}}
+                  </ion-card-title>
+                    <p>
+                    {{users.description}}
+                   </p>
+                </ion-card-content>
+            </ion-card>
+          </ion-card-content>
+          -->
+        
+      
+              
+            
+          <ion-card-content class="transparente">
+              <ion-card class="transparent">
+                 <img src="assets/imgs/perfilpic.png" class="imagenes" alt="Profile Picture"/>
+                 
+                 <ion-card-content>
+                   <ion-card-title class="texto">
+                     Iván Garzón 
+                   </ion-card-title>
+                     <p class="texto">
+                    @strikerivan
+                    </p>
+                 </ion-card-content>
+             </ion-card>
+           </ion-card-content>
+         
+       
+         <ion-card class="transparent">
+           <p class="texto">
+             Latest Uploads
+           </p>
+       </ion-card>  
+         
+        
+        <div class="listaimagenes">
+        
+
+         
+           
+          
+
+            
+           <ion-slides pager>
+
+              <ion-slide class="transparent">
+                 <div class=" item item-image, columnaimagenes" >
+                    <img src="assets/imgs/imagen5.png" class="imagenes">
+                    <img src="assets/imgs/imagen6.png" class="imagenes">
+                 </div>
+              </ion-slide>
+
+              <ion-slide class="transparent">
+                  <div class=" item item-image, columnaimagenes" >
+                      <img src="assets/imgs/imagen3.png" class="imagenes">
+                      <img src="assets/imgs/imagen4.png" class="imagenes">
+                   </div>
+               </ion-slide>
+               
+               <ion-slide class="transparent">
+                  <div class=" item item-image, columnaimagenes" >
+                      <img src="assets/imgs/imagen1.png" class="imagenes">
+                      <img src="assets/imgs/imagen2.png" class="imagenes"> 
+                    </div>
+               </ion-slide>
+              
+            
+            </ion-slides>
+
+            <div class= "item item-image, columnaimagenes">
+              <img src="assets/imgs/linea.png" >
+            </div>
+          
+           
+          
+        </div>
+      
+  </ion-content>
+  

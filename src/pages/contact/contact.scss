@@ -1,0 +1,20 @@
+page-contact {
+    .fuente{
+        font-family: 'Quicksand', sans-serif;
+    }  
+    .gradient{
+    
+        background: #25125c;
+        background: -moz-linear-gradient(45deg, #25125c 0%, #293d55 50%, #284f4d 100%);
+        background: -webkit-linear-gradient(45deg, #25125c 0%,#293d55 50%,#284f4d 100%);
+        background: linear-gradient(45deg, #25125c 0%,#293d55 50%,#284f4d 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25125c', endColorstr='#284f4d',GradientType=1 );
+    }    
+    .gradient-navbar{
+        background: #5aafad;
+background: -moz-linear-gradient(left, #5aafad 0%, #5463bb 100%);
+background: -webkit-linear-gradient(left, #5aafad 0%,#5463bb 100%);
+background: linear-gradient(to right, #5aafad 0%,#5463bb 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5aafad', endColorstr='#5463bb',GradientType=1 ) !important;
+    }
+}

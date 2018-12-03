@@ -1,0 +1,78 @@
+<ion-header class="gradient-navbar">
+  <ion-navbar color="azulito">
+    <ion-buttons left>
+      <button ion-button icon-only (click)="filter(null, 1)" *ngIf="image">
+        <ion-icon name="close"></ion-icon>
+      </button>
+    </ion-buttons>
+      <ion-title class="fuente">
+          Edit
+      </ion-title>
+    <ion-buttons right>
+      <button ion-button icon-only (click)="captureImage()">
+        <ion-icon name="camera"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content padding class="gradient">
+
+  <div>
+    <img src="assets/imgs/barritaarriba1.png">
+  </div>
+
+    
+
+    <button ion-button block outline class="boton1" (click)="choosePicture()">Gallery</button>
+
+    <button ion-button block outline class="boton2" (click)="takePicture()">Camera</button>
+  
+
+    <web-photo-filter [class.only-original]="!selectedFilter" [class.no-original]="selectedFilter" [src]="image"
+    [filter]="selectedFilter" [level]="level" keep="true" (filterLoad)="imageLoaded($event)"></web-photo-filter>
+
+  <ion-row *ngIf="image">
+    <ion-col>
+      <button ion-button outline color="primary" (click)="filter('Sepia')">
+        Sepia
+      </button>
+    </ion-col>
+    <ion-col>
+      <button ion-button outline color="primary" (click)="filter('Polaroid')">
+        Polaroid
+      </button>
+    </ion-col>
+    <ion-col>
+      <button ion-button outline (click)="filter('greyscale')">
+        Grey
+      </button>
+    </ion-col>
+    <ion-col>
+      <button ion-button outline (click)="filter('contrast', 2)">
+        Contrast
+      </button>
+    </ion-col>
+    <ion-col>
+      <button ion-button outline (click)="filter('brightness', 1.7)">
+        Bright
+      </button>
+    </ion-col>
+    <ion-col>
+      <button ion-button outline (click)="filter('saturation')">
+        Saturation
+      </button>
+    </ion-col>
+    <ion-col>
+      <button ion-button outline (click)="filter('hue', 120)">
+        Hue
+      </button>
+    </ion-col>
+  </ion-row>
+
+  <button ion-button block outline class="boton1" (click)="download()">Download Image</button>
+
+
+ 
+ 
+</ion-content>

@@ -1,0 +1,117 @@
+{
+    "users": [
+      {
+        "id": 0,
+        "name": "Ivan Garzón",
+        "username":"strikerivan",      
+        "profile_picture": "images/perfilpic.png",
+        "social":[
+          {
+            "facebook": "https://facebook.com"
+          },
+          {
+            "instagram": "https://instagram.com"
+          }
+        ],
+        "images": [
+          {
+            "id": 0,
+            "url": "images/imagen1.png",
+            "date": "2018-05-16T17:57:28.556094Z",
+            "like": false
+          },
+          {
+            "id": 1,
+            "url": "images/imagen2.png",
+            "date": "2018-05-16T17:57:28.556094Z",
+            "like": false
+          },
+          {
+            "id": 2,
+            "url": "images/imagen3.png",
+            "date": "2018-05-16T17:57:28.556094Z",
+            "like": false
+          },
+          {
+            "id": 3,
+            "url": "images/imagen4.png",
+            "date": "2018-05-16T17:57:28.556094Z",
+            "like": false
+          },
+          {
+            "id": 4,
+            "url": "images/imagen5.png",
+            "date": "2018-05-16T17:57:28.556094Z",
+            "like": false
+          },
+          {
+            "id": 5,
+            "url": "images/imagen6.png",
+            "date": "2018-05-16T17:57:28.556094Z",
+            "like": false
+          } 
+        ]
+  
+      }
+    ],
+    "filters": [
+        {
+         "id" : 0,
+          "name" : "Matrix",
+          "image-thumb" : "my_images/thumb1.jpg"
+        },
+  
+        {
+          "id" : 1,
+          "name" : "Retro",
+          "image-thumb" : "my_images/thumb2.jpg"
+        },
+  
+        {
+          "id" : 2,
+          "name" : "Signs",
+          "image-thumb" : "my_images/thumb3.jpg"
+        },
+  
+        {
+          "id" : 3,
+          "name" : "Allway",
+          "image-thumb" : "my_images/thumb4.jpg"
+        },
+        {
+          "id" : 4,
+          "name" : "AlwaysPink",
+          "image-thumb" : "my_images/thumb5.jpg"
+        },
+  
+        {
+          "id" : 5,
+          "name" : "Madness",
+          "image-thumb" : "my_images/thumb6.jpg"
+        },
+  
+        {
+          "id" : 6,
+          "name" : "PurpleHaze",
+          "image-thumb" : "my_images/thumb7.jpg"
+        },
+        
+        {
+          "id" : 7,
+          "name" : "BlueDreams",
+          "image-thumb" : "my_images/thumb8.jpg"
+        },
+        {
+          "id" : 8,
+          "name" : "Fuck",
+          "image-thumb" : "my_images/thumb9.jpg"
+        },
+        
+        {
+          "id" : 9,
+          "name" : "Idk",
+          "image-thumb" : "my_images/thumb10.jpg"
+        }
+    ]
+    
+  }
